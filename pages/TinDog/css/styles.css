@@ -1,0 +1,138 @@
+body{
+  font-family:'Montserrat';
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+}
+/* Headings */
+.big-heading{
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height:1.5;
+}
+.container-fluid{
+  padding:7% 15%;
+}
+.colored-section{
+  background-color: #ff4c68;
+  color:white;
+}
+.white-section{
+  background-color: white;
+}
+#title .container-fluid{
+  padding:3% 15% 7%;
+  text-align: left;
+}
+/* Navagation Bar */
+.navbar{
+  padding:0 0 4.5rem 0;
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+/* Buttons */
+.download-btn{
+  margin:5% 3% 5% 0;
+}
+/* Images */
+.phone{
+  width:20%;
+  transform: rotate(25deg);
+  position:absolute;
+  right:23%;
+}
+/* Features */
+#features{
+  position: relative;
+  z-index: 1;
+}
+.feature{
+  padding: 5%;
+}
+.feature-icon{
+  color:#ef8172;
+  display: block;
+  margin:0 auto 1rem auto;
+}
+.feature-icon:hover{
+  color:#ff4c68;
+}
+.feature-title{
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+.feature-descr{
+  color:#8f8f8f;
+}
+/* Testimonials */
+#testimonials{
+  background-color: #ef8172;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+/* Press */
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+/* Pricing */
+#pricing{
+  padding:100px;
+}
+.price-text{
+  font-size:3rem;
+  line-height: 1.5;
+}
+.pricing-col {
+  padding: 3% 2%;
+}
+@media (max-width:1100px){
+  #title{
+    text-align: center;
+  }
+  .phone{
+    position: static;
+    width:60%;
+    transform: rotate(0);
+  }
+}
+/* Call to Action */
+.call{
+  font-size:3rem;
+  font-weight: bold;
+}
+/* Footer */
+.footer-icon{
+  margin: 1% .5%;
+}
+.copyright{
+  color: #8f8f8f;
+}
